@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
       },
       { validator: PasswordValidation }
     );
-
+    
     this.registrationForm
       .get('subscribe')
       .valueChanges.subscribe((checkedValues) => {
